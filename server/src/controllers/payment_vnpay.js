@@ -140,7 +140,7 @@ const vnp_Return = async (req, res) => {
   //console.log(email);
   const user = await User.findOne({
     where: {
-      email: "email",
+      email: email,
     },
   });
 
